@@ -570,7 +570,7 @@ body p {
   }
 }
 .lazyload {
-  background: url("/images/theme/loading.gif") no-repeat center;
+  background: url("/sea/images/theme/loading.gif") no-repeat center;
 }
 .loading {
   position: fixed;
@@ -586,7 +586,7 @@ body p {
   z-index: 40;
   height: 90vh;
   width: 100%;
-  background-image: url("/images/theme/welcome-image.jpg");
+  background-image: url("/sea/images/theme/welcome-image.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-attachment: fixed;
