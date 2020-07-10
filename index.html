@@ -1,3 +1,30 @@
 <html>
-  <body><h3>他深吸了一口夹在两指之间的烟，直到烟头红到发亮，才缓缓吐出那口浓浓的烟，烟雾缭绕，模糊了他的面孔，也仿佛将我，带到了他的童年。！</h3></body>
+ 
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>系统时间</title>
+</head>
+ 
+<body>
+    <script>
+        Date.prototype.format = function (fmt) {
+            var o = {
+                "y+": this.getFullYear, //年
+                "M+": this.getMonth() + 1, //月份
+                "d+": this.getDate(), //日
+                "h+": this.getHours(), //小时
+                "m+": this.getMinutes(), //分
+                "s+": this.getSeconds() //秒
+            };
+            if (/(y+)/.test(fmt)) fmt = fmt.replace(RegExp.$1, (this.getFullYear() + "").substr(4 - RegExp.$1.length));
+            for (var k in o)
+                if (new RegExp("(" + k + ")").test(fmt)) fmt = fmt.replace(RegExp.$1, (RegExp.$1.length == 1) ? (o[k]) : (("00" + o[k]).substr(("" + o[k]).length)));
+            return fmt;
+        }
+        setInterval("document.getElementById('dateTime').innerHTML = (new Date()).format('yyyy-MM-dd hh:mm:ss');", 1000);
+    </script>
+ 
+    <div id="dateTime"></div>
+</body>
+
 </html>
