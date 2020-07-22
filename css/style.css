@@ -29,7 +29,7 @@ body a {
   text-decoration: none;
 }
 body a:hover {
-  color: #fff;
+  color: #030;
 }
 body a,
 body a:hover {
@@ -82,23 +82,23 @@ body p {
   background-color: #fff;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: #fff;
+  background-color: #030;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #fff;
+  background-color: #030;
 }
 ::-webkit-scrollbar-thumb,
 ::-webkit-scrollbar-thumb:hover {
   transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
 }
 *::selection {
-  background: #fff;
+  background: #030;
 }
 *::-moz-selection {
-  background: #fff;
+  background: #030;
 }
 *::-webkit-selection {
-  background: #fff;
+  background: #030;
 }
 .container {
   width: 100%;
@@ -697,7 +697,7 @@ body p {
   font-size: 1.5em;
 }
 .fab:hover {
-  background-color: #fff;
+  background-color: #030;
   color: #33333d;
   cursor: pointer;
 }
@@ -813,7 +813,7 @@ body p {
   transform: rotate(45deg);
 }
 .menu .menu-close i {
-  color: #fff;
+  color: #030;
   font-size: 1.5em;
 }
 .menu .menu-content {
@@ -1031,7 +1031,7 @@ body p {
   background-color: #f6f8fa;
   padding: 2px 5px;
   border-radius: 2px;
-  color: #fff;
+  color: #030;
 }
 .article .main .content a {
   text-decoration: underline !important;
@@ -1085,7 +1085,7 @@ body p {
   margin: 0 0 1em;
   padding: 15px 20px;
   background-color: #f6f8fa;
-  border-left: 3px solid #fff;
+  border-left: 3px solid #030;
   border-left-width: 6px;
 }
 .article .main .content blockquote p {
@@ -1156,7 +1156,7 @@ body p {
 }
 .article .extra .tag-list .tag-list-item:hover {
   cursor: pointer;
-  background-color: #fff;
+  background-color: #030;
 }
 .article .extra .tag-list .tag-list-item:hover a {
   color: #fff;
@@ -1179,7 +1179,7 @@ body p {
   text-align: center;
 }
 .article .comments .btn:hover {
-  background-color: #fff;
+  background-color: #030;
   color: #fff;
   transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
   cursor: pointer;
@@ -1273,7 +1273,7 @@ body p {
   margin-right: 10px;
 }
 .tags a:hover {
-  background-color: #fff;
+  background-color: #030;
   color: #fff !important;
 }
 .categories {
